@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Nov 13 13:38:55 2021
+# Process ID: 20320
+# Current directory: C:/Users/jonja/Documents/zLabAll/zLabAll/bcd_counter/bcd_counter.runs/synth_1
+# Command line: vivado.exe -log bcd_7segment.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bcd_7segment.tcl
+# Log file: C:/Users/jonja/Documents/zLabAll/zLabAll/bcd_counter/bcd_counter.runs/synth_1/bcd_7segment.vds
+# Journal file: C:/Users/jonja/Documents/zLabAll/zLabAll/bcd_counter/bcd_counter.runs/synth_1\vivado.jou
+# Running On: DESKTOP-42IJ6JD, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 68554 MB
+#-----------------------------------------------------------
+source bcd_7segment.tcl -notrace

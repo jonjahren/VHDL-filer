@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon May  4 16:57:30 2020
+# Process ID: 8128
+# Current directory: D:/Skole/Digitale systemer og programmering/VHDL programmering/lecture07
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34276 D:\Skole\Digitale systemer og programmering\VHDL programmering\lecture07\lecture07.xpr
+# Log file: D:/Skole/Digitale systemer og programmering/VHDL programmering/lecture07/vivado.log
+# Journal file: D:/Skole/Digitale systemer og programmering/VHDL programmering/lecture07\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/lecture07/lecture07.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture05/Lecture05/Lecture05.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture04/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture04/Lecture04_Part2/Lecture04_Part2.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture04/Lecture04_Part3/Lecture04_Part3.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture03/Lecture03/Lecture03.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture03/Lect03_Part2/Lect03_Part2.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture02_8bits_comp_struct_design/Lecture02_8bits_comp_struct_design.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Excercise01_BertilUS/Excercise01_BertilUS.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 01/Lab_01_BertilUS/Lab_01_BertilUS.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 02/Lab_02_Part2/Lab_02_Part2.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 03/Lab_03_Bertil/Lab_03_Bertil.xpr}
+update_compile_order -fileset sources_1

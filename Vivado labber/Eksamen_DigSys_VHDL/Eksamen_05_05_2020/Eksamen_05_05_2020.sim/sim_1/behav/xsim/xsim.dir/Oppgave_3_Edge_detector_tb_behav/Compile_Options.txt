@@ -1,0 +1,1 @@
+-wto "cd627c7121f44621b1703daaffef3e65" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Oppgave_3_Edge_detector_tb_behav" "xil_defaultlib.Oppgave_3_Edge_detector_tb" -log "elaborate.log" 

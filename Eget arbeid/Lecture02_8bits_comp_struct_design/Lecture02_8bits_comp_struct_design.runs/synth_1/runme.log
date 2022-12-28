@@ -1,0 +1,269 @@
+
+*** Running vivado
+    with args -log Eight_Bit_Comparator.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Eight_Bit_Comparator.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Eight_Bit_Comparator.tcl -notrace
+Command: synth_design -top Eight_Bit_Comparator -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19020 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 948.051 ; gain = 233.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Eight_Bit_Comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/Eight_Bit_Comparator.vhd:40]
+INFO: [Synth 8-3491] module 'two_bits_comparator' declared at 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd:34' bound to instance 'compare_bit_10' of component 'two_bits_comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/Eight_Bit_Comparator.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'two_bits_comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd:40]
+INFO: [Synth 8-3491] module 'One_Bit_Comparator' declared at 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/One_Bit_Comparator.vhd:34' bound to instance 'comparate_bit_0' of component 'One_Bit_Comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'One_Bit_Comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/One_Bit_Comparator.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'One_Bit_Comparator' (1#1) [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/One_Bit_Comparator.vhd:40]
+INFO: [Synth 8-3491] module 'One_Bit_Comparator' declared at 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/One_Bit_Comparator.vhd:34' bound to instance 'comparate_bit_1' of component 'One_Bit_Comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'two_bits_comparator' (2#1) [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd:40]
+INFO: [Synth 8-3491] module 'two_bits_comparator' declared at 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd:34' bound to instance 'compare_bit_32' of component 'two_bits_comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/Eight_Bit_Comparator.vhd:56]
+INFO: [Synth 8-3491] module 'two_bits_comparator' declared at 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd:34' bound to instance 'compare_bit_54' of component 'two_bits_comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/Eight_Bit_Comparator.vhd:59]
+INFO: [Synth 8-3491] module 'two_bits_comparator' declared at 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd:34' bound to instance 'compare_bit_76' of component 'two_bits_comparator' [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/Eight_Bit_Comparator.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'Eight_Bit_Comparator' (3#1) [D:/Skole/Digitale systemer og programmering/VHDL programmering/Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/Eight_Bit_Comparator.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1021.406 ; gain = 306.832
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1021.406 ; gain = 306.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1021.406 ; gain = 306.832
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1021.406 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture02_8bits_comp_struct_design/Lecture02_8bits_comp_struct_design.srcs/constrs_1/new/Eight_bits_comparator_XDC.xdc]
+Finished Parsing XDC File [D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture02_8bits_comp_struct_design/Lecture02_8bits_comp_struct_design.srcs/constrs_1/new/Eight_bits_comparator_XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture02_8bits_comp_struct_design/Lecture02_8bits_comp_struct_design.srcs/constrs_1/new/Eight_bits_comparator_XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Eight_Bit_Comparator_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Eight_Bit_Comparator_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1111.156 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1111.156 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1111.156 ; gain = 396.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1111.156 ; gain = 396.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1111.156 ; gain = 396.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1111.156 ; gain = 396.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1111.156 ; gain = 396.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1111.156 ; gain = 396.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1111.156 ; gain = 396.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1111.156 ; gain = 396.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1112.824 ; gain = 398.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1112.824 ; gain = 398.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1112.824 ; gain = 398.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1112.824 ; gain = 398.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1112.824 ; gain = 398.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1112.824 ; gain = 398.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     5|
+|2     |IBUF |    16|
+|3     |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    22|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1112.824 ; gain = 398.250
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 1112.824 ; gain = 308.500
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1112.824 ; gain = 398.250
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1124.887 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1129.492 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1129.492 ; gain = 704.578
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1129.492 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture02_8bits_comp_struct_design/Lecture02_8bits_comp_struct_design.runs/synth_1/Eight_Bit_Comparator.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Eight_Bit_Comparator_utilization_synth.rpt -pb Eight_Bit_Comparator_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  2 23:14:32 2020...

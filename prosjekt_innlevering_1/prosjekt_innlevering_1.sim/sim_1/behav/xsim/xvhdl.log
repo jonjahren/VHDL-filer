@@ -1,0 +1,16 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/prosjekt_innlevering_1/prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/bp_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bp_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/prosjekt_innlevering_1/prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/bs_cell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bs_cell'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/prosjekt_innlevering_1/prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/bs_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bs_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/prosjekt_innlevering_1/prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/ir_cell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ir_cell'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/prosjekt_innlevering_1/prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/ir_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ir_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/prosjekt_innlevering_1/prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/tapc_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tapc_fsm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/prosjekt_innlevering_1/prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'toplevel'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/prosjekt_innlevering_1/prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/tb_top_level1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top_level1'

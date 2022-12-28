@@ -1,0 +1,9 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 78ecd24441de4318a8afcb3e9971fdcc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Greater_Than_behav xil_defaultlib.Greater_Than -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [XSIM 43-3189] "C:/Users/tyloo/Desktop/Digitale systemer/zLabAll/exam Oppgave 1/exam Oppgave 1.srcs/sources_1/new/Greater_Than.vhd" Line 35. Port d0_0 in top design unit greater_than is unconstrained. 
+ERROR: [XSIM 43-3189] "C:/Users/tyloo/Desktop/Digitale systemer/zLabAll/exam Oppgave 1/exam Oppgave 1.srcs/sources_1/new/Greater_Than.vhd" Line 36. Port d1_0 in top design unit greater_than is unconstrained. 
+ERROR: [XSIM 43-3189] "C:/Users/tyloo/Desktop/Digitale systemer/zLabAll/exam Oppgave 1/exam Oppgave 1.srcs/sources_1/new/Greater_Than.vhd" Line 37. Port d0_1 in top design unit greater_than is unconstrained. 
+ERROR: [XSIM 43-3189] "C:/Users/tyloo/Desktop/Digitale systemer/zLabAll/exam Oppgave 1/exam Oppgave 1.srcs/sources_1/new/Greater_Than.vhd" Line 38. Port d1_1 in top design unit greater_than is unconstrained. 

@@ -1,0 +1,73 @@
+library IEEE;
+-- use IEEE.STD_LOGIC_1164.ALL;
+
+entity MUXtop is
+    Port (a, b, sel: in bit;
+         z: out bit);
+end MUXtop;
+
+architecture behav of MUXtop is
+begin
+    choose: process (a, b, sel)  -- is
+    begin
+        if sel = '0' then
+            z <= b;
+        else
+            z <= a;
+        end if;
+    end process choose;
+end architecture behav;
+
+LIBRARY ieee;
+-- USE ieee.std_logic_1164.ALL;
+
+ENTITY MUXtest IS
+END MUXtest;
+
+ARCHITECTURE behavior OF MUXtest IS 
+
+-- Component Declaration for the Unit Under Test (UUT)
+
+    COMPONENT MUXtop
+    PORT(
+        a : IN  bit;
+        b : IN  bit;
+        sel : IN  bit;
+        z : OUT  bit
+        );
+    END COMPONENT MUXtop;
+
+
+   --Inputs
+   signal a : bit := '0';
+   signal b : bit := '0';
+   signal sel : bit := '0';
+
+   --Outputs
+   signal z : bit;
+
+BEGIN
+
+-- Instantiate the Unit Under Test (UUT)
+    uut: MUXtop PORT MAP (
+           a => a,
+           b => b,
+           sel => sel,
+           z => z
+           );
+
+   -- Stimulus process
+   stimulus: process
+   begin
+       wait for 10 ns;
+       a <= '1';
+       wait for 10 ns;
+       sel <= '1';
+       wait for 10 ns;
+       sel <= '0';     -- added
+       wait for 10 ns; -- added
+       b <= '1';
+       wait for 10 ns; -- added
+       wait;
+   end process stimulus;
+END architecture behavior;

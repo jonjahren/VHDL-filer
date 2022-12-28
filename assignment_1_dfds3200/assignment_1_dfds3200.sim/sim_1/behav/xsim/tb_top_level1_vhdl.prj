@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../assignment_1_dfds3200.srcs/sim_1/imports/Boundary Scan - Eksempler/tb_top_level1.vhd" \
+
+# Do not sort compile order
+nosort

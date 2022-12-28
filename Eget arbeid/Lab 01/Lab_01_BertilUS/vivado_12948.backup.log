@@ -1,0 +1,218 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Aug 12 21:15:24 2021
+# Process ID: 12948
+# Current directory: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3156 C:\Users\jonja\Documents\VHDL\Eget arbeid\Lab 01\Lab_01_BertilUS\Lab_01_BertilUS.xpr
+# Log file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS/vivado.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-1460] Use of init.tcl in C:/Users/jonja/AppData/Roaming/Xilinx/Vivado/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/Users/jonja/AppData/Roaming/Xilinx/Vivado/init.tcl'
+start_gui
+open_project -read_only {C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS/Lab_01_BertilUS.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 01/Lab_01_BertilUS' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'Lab_01_BertilUS.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1270.945 ; gain = 22.344
+update_compile_order -fileset sources_1
+save_project_as project_1 C:/Users/jonja/Documents/VHDL/JJVHDL/project_1 -force
+save_project_as: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1307.020 ; gain = 0.000
+launch_runs synth_1 -jobs 6
+[Thu Aug 12 21:16:55 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Thu Aug 12 21:18:19 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1619.094 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1705.359 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1705.359 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2112.996 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2203.160 ; gain = 873.395
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Lab01part2
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2388.762 ; gain = 88.980
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Lab01part2' [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd:40]
+INFO: [Synth 8-3491] module 'Lab01' declared at 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd:34' bound to instance 'komparator_bit_0' of component 'Lab01' [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'Lab01' [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Lab01' (1#1) [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd:40]
+INFO: [Synth 8-3491] module 'Lab01' declared at 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd:34' bound to instance 'komparator_bit_1' of component 'Lab01' [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'Lab01part2' (2#1) [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2434.004 ; gain = 134.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2451.902 ; gain = 152.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2451.902 ; gain = 152.121
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2451.902 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2523.430 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2572.805 ; gain = 273.023
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2572.805 ; gain = 273.023
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2604.242 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2604.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Lab01part2_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Lab01part2_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Lab01part2_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab01'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab01part2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sim_1/new/Lab01part2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab01part2_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto aec47e58973245f8b828ead0d37b49f7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab01part2_tb_behav xil_defaultlib.Lab01part2_tb -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto aec47e58973245f8b828ead0d37b49f7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab01part2_tb_behav xil_defaultlib.Lab01part2_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Lab01 [lab01_default]
+Compiling architecture behavioral of entity xil_defaultlib.Lab01part2 [lab01part2_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab01part2_tb
+Built simulation snapshot Lab01part2_tb_behav
+
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/Lab01part2_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/Lab01part2_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Aug 12 21:21:04 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2021.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Aug 12 21:21:04 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2604.242 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Lab01part2_tb_behav -key {Behavioral:sim_1:Functional:Lab01part2_tb} -tclbatch {Lab01part2_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Lab01part2_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Lab01part2_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 2604.242 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Lab01part2
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2692.980 ; gain = 72.551
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Lab01part2' [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd:40]
+INFO: [Synth 8-3491] module 'Lab01' declared at 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd:34' bound to instance 'komparator_bit_0' of component 'Lab01' [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'Lab01' [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Lab01' (1#1) [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd:40]
+INFO: [Synth 8-3491] module 'Lab01' declared at 'C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01.vhd:34' bound to instance 'komparator_bit_1' of component 'Lab01' [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'Lab01part2' (2#1) [C:/Users/jonja/Documents/VHDL/JJVHDL/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2746.871 ; gain = 126.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2746.871 ; gain = 126.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2746.871 ; gain = 126.441
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2746.871 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2799.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2799.777 ; gain = 179.348
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2799.777 ; gain = 179.348
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2819.797 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 12 23:09:18 2021...

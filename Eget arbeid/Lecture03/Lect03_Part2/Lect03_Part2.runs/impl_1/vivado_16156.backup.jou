@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Feb 17 10:37:41 2020
+# Process ID: 16156
+# Current directory: D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture03/Lect03_Part2/Lect03_Part2.runs/impl_1
+# Command line: vivado.exe -log two_2_four_encoder_with_select.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source two_2_four_encoder_with_select.tcl -notrace
+# Log file: D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture03/Lect03_Part2/Lect03_Part2.runs/impl_1/two_2_four_encoder_with_select.vdi
+# Journal file: D:/Skole/Digitale systemer og programmering/VHDL programmering/Lecture03/Lect03_Part2/Lect03_Part2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source two_2_four_encoder_with_select.tcl -notrace

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Oct 12 10:07:13 2021
+# Process ID: 15164
+# Current directory: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lecture04/Lecture04_Part2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12076 C:\Users\jonja\Documents\VHDL\Eget arbeid\Lecture04\Lecture04_Part2\Lecture04_Part2.xpr
+# Log file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lecture04/Lecture04_Part2/vivado.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lecture04/Lecture04_Part2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/jonja/Documents/VHDL/Eget arbeid/Lecture04/Lecture04_Part2/Lecture04_Part2.xpr}
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+launch_simulation
+source hex_to_seg_if.tcl
+reset_run synth_1
+reset_run impl_1
+close_sim

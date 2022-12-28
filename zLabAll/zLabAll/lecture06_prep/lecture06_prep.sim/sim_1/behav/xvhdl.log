@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hn/Desktop/DFDP1100_2020_Projects/lecture06_prep/lecture06_prep.srcs/sources_1/new/mod_m_counter_new.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mod_m_counter_new
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hn/Desktop/DFDP1100_2020_Projects/lecture06_prep/lecture06_prep.srcs/sim_1/new/mod_m_counter_new_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mod_m_counter_new_tb

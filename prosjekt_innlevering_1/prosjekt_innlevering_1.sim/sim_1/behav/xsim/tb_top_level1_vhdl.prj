@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/bp_register.vhd" \
+"../../../../prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/bs_cell.vhd" \
+"../../../../prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/bs_register.vhd" \
+"../../../../prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/ir_cell.vhd" \
+"../../../../prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/ir_register.vhd" \
+"../../../../prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/tapc_fsm.vhd" \
+"../../../../prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/top_level.vhd" \
+"../../../../prosjekt_innlevering_1.srcs/sources_1/imports/Boundary Scan - Eksempler/tb_top_level1.vhd" \
+
+# Do not sort compile order
+nosort

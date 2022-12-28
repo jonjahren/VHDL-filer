@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Feb  3 09:22:30 2020
+# Process ID: 12580
+# Current directory: D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 02/Lab_02_Part2/Lab_02_Part2.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 02/Lab_02_Part2/Lab_02_Part2.sim/sim_1/behav/xsim/xsim.dir/Lab_02_Part2_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 02/Lab_02_Part2/Lab_02_Part2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 02/Lab_02_Part2/Lab_02_Part2.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Skole/Digitale -notrace

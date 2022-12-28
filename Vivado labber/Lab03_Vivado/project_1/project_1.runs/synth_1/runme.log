@@ -1,0 +1,336 @@
+
+*** Running vivado
+    with args -log two_to_four_decoder_lab03.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source two_to_four_decoder_lab03.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source two_to_four_decoder_lab03.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 424.617 ; gain = 126.496
+Command: synth_design -top two_to_four_decoder_lab03 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21232 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 949.512 ; gain = 234.066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'two_to_four_decoder_lab03' [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/sources_1/new/two_to_four_decoder_lab03.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'two_to_four_decoder_lab03' (1#1) [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/sources_1/new/two_to_four_decoder_lab03.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1023.059 ; gain = 307.613
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1023.059 ; gain = 307.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1023.059 ; gain = 307.613
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1023.059 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc]
+WARNING: [Vivado 12-584] No ports matched 'i0'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i0'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i1'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i1'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'y'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'y'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_one_mux_XDC.xdc]
+Parsing XDC File [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc]
+WARNING: [Vivado 12-584] No ports matched 'r[0]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'r[0]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'r[1]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'r[1]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'r[2]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'r[2]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'r[3]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'r[3]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pcode[0]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pcode[0]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pcode[1]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pcode[1]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pcode[2]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pcode[2]'. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/priority_encoder_lab03_XDC.xdc]
+Parsing XDC File [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_four_decoder_lab03_XDC.xdc]
+Finished Parsing XDC File [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_four_decoder_lab03_XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.srcs/constrs_1/new/two_to_four_decoder_lab03_XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/two_to_four_decoder_lab03_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/two_to_four_decoder_lab03_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1045.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1045.102 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1045.102 ; gain = 329.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1045.102 ; gain = 329.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 1045.102 ; gain = 329.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 1045.102 ; gain = 329.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module two_to_four_decoder_lab03 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1045.102 ; gain = 329.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:56 . Memory (MB): peak = 1094.953 ; gain = 379.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:56 . Memory (MB): peak = 1094.953 ; gain = 379.508
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:56 . Memory (MB): peak = 1104.559 ; gain = 389.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1119.375 ; gain = 403.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1119.375 ; gain = 403.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1119.375 ; gain = 403.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1119.375 ; gain = 403.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1119.375 ; gain = 403.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1119.375 ; gain = 403.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     4|
+|2     |IBUF |     3|
+|3     |OBUF |     4|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    11|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1119.375 ; gain = 403.930
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:01:12 . Memory (MB): peak = 1119.375 ; gain = 381.887
+Synthesis Optimization Complete : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1119.375 ; gain = 403.930
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1132.441 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1137.484 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 22 Warnings, 22 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:21 ; elapsed = 00:01:32 . Memory (MB): peak = 1137.484 ; gain = 712.867
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1137.484 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Vetle/OneDrive/Skrivebord/Lab03_Vivado/project_1/project_1.runs/synth_1/two_to_four_decoder_lab03.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file two_to_four_decoder_lab03_utilization_synth.rpt -pb two_to_four_decoder_lab03_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  2 10:41:39 2020...

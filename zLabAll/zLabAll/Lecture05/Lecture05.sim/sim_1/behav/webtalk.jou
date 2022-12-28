@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Mar 30 10:45:04 2020
+# Process ID: 14912
+# Current directory: C:/Users/hn/Desktop/DFDP1100_2020_Projects/Lecture05/Lecture05.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/hn/Desktop/DFDP1100_2020_Projects/Lecture05/Lecture05.sim/sim_1/behav/xsim.dir/d_ff_rst_en_circuit_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/hn/Desktop/DFDP1100_2020_Projects/Lecture05/Lecture05.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/hn/Desktop/DFDP1100_2020_Projects/Lecture05/Lecture05.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/hn/Desktop/DFDP1100_2020_Projects/Lecture05/Lecture05.sim/sim_1/behav/xsim.dir/d_ff_rst_en_circuit_tb_behav/webtalk/xsim_webtalk.tcl -notrace

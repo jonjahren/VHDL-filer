@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Aug 12 20:44:22 2021
+# Process ID: 14600
+# Current directory: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7244 C:\Users\jonja\Documents\VHDL\Alle oppgaver fra HIEU\DFDP1100_2020_Projects\DFDP1100_2020_Projects\Lab01_Grade\Lab01_Grade.xpr
+# Log file: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade/vivado.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade/Lab01_Grade.xpr}

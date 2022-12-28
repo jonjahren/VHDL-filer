@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Forelesning_3.srcs/sources_1/new/Test_Data_Conversion.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Feb  3 08:59:17 2020
+# Process ID: 24772
+# Current directory: C:/Users/Vetle/.vivado_hls/Lab01_Part2_VetleLund/Lab02_ Vetle_Lund/Lab02_ Vetle_Lund.runs/synth_1
+# Command line: vivado.exe -log Lab02_part1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab02_part1.tcl
+# Log file: C:/Users/Vetle/.vivado_hls/Lab01_Part2_VetleLund/Lab02_ Vetle_Lund/Lab02_ Vetle_Lund.runs/synth_1/Lab02_part1.vds
+# Journal file: C:/Users/Vetle/.vivado_hls/Lab01_Part2_VetleLund/Lab02_ Vetle_Lund/Lab02_ Vetle_Lund.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Lab02_part1.tcl -notrace

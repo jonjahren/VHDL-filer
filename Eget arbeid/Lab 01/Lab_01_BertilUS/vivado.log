@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Aug 31 12:56:50 2021
+# Process ID: 11320
+# Current directory: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10800 C:\Users\jonja\Documents\VHDL\Eget arbeid\Lab 01\Lab_01_BertilUS\Lab_01_BertilUS.xpr
+# Log file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS/vivado.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-1460] Use of init.tcl in C:/Users/jonja/AppData/Roaming/Xilinx/Vivado/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/Users/jonja/AppData/Roaming/Xilinx/Vivado/init.tcl'
+start_gui
+open_project -read_only {C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS/Lab_01_BertilUS.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 01/Lab_01_BertilUS' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'Lab_01_BertilUS.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1286.422 ; gain = 36.543
+update_compile_order -fileset sources_1
+save_project_as project_1 {C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1} -force
+save_project_as: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 1336.473 ; gain = 20.871
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Lab01part2_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Lab01part2_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Lab01part2_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1/project_1.srcs/sources_1/new/Lab01.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab01'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1/project_1.srcs/sources_1/new/Lab01part2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab01part2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1/project_1.srcs/sim_1/new/Lab01part2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab01part2_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto 36fae7984fbb447fb3103199970b5ff5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab01part2_tb_behav xil_defaultlib.Lab01part2_tb -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 36fae7984fbb447fb3103199970b5ff5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab01part2_tb_behav xil_defaultlib.Lab01part2_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Lab01 [lab01_default]
+Compiling architecture behavioral of entity xil_defaultlib.Lab01part2 [lab01part2_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab01part2_tb
+Built simulation snapshot Lab01part2_tb_behav
+
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/jonja/Documents/VHDL/Eget -notrace
+couldn't read file "C:/Users/jonja/Documents/VHDL/Eget": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Tue Aug 31 12:59:14 2021...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Lab01part2_tb_behav -key {Behavioral:sim_1:Functional:Lab01part2_tb} -tclbatch {Lab01part2_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Lab01part2_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Lab01part2_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1367.652 ; gain = 31.180
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  2 09:57:32 2021...

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/zLabAll/zLabAll/Demo_01/Demo_01.srcs/sources_1/new/One_Bit_Comparator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'One_Bit_Comparator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonja/Documents/zLabAll/zLabAll/Demo_01/Demo_01.srcs/sim_1/new/one_bit_comparator_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'one_bit_comparator_tb'

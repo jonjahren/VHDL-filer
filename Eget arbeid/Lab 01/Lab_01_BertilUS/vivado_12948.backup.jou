@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Aug 12 21:15:24 2021
+# Process ID: 12948
+# Current directory: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3156 C:\Users\jonja\Documents\VHDL\Eget arbeid\Lab 01\Lab_01_BertilUS\Lab_01_BertilUS.xpr
+# Log file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS/vivado.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS/Lab_01_BertilUS.xpr}
+update_compile_order -fileset sources_1
+save_project_as project_1 C:/Users/jonja/Documents/VHDL/JJVHDL/project_1 -force
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_run impl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+open_run synth_1 -name synth_1
+launch_simulation
+source Lab01part2_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim

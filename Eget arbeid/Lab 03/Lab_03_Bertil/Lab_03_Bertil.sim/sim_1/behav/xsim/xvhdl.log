@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 03/Lab_03_Bertil/Lab_03_Bertil.srcs/sources_1/new/Lab_03_Part_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab_03_Part_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Skole/Digitale systemer og programmering/VHDL programmering/Lab 03/Lab_03_Bertil/Lab_03_Bertil.srcs/sim_1/new/Lab_03_Part_2_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab_03_Part_2_TB'

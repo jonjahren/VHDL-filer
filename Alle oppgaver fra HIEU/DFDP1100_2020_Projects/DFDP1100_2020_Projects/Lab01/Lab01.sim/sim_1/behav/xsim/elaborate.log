@@ -1,0 +1,15 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f3f7331ee7b5483bbe7c0856b0192e75 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot two_bits_comparator_behav xil_defaultlib.two_bits_comparator -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.One_Bit_Comparator [one_bit_comparator_default]
+Compiling architecture behavioral of entity xil_defaultlib.two_bits_comparator
+Built simulation snapshot two_bits_comparator_behav

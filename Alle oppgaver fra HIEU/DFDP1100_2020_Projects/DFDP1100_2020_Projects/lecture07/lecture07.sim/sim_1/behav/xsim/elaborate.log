@@ -1,0 +1,14 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto ca3b11de24aa4346ae2347ae713eda13 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FSM_Example_behav xil_defaultlib.FSM_Example -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.fsm_example
+Built simulation snapshot FSM_Example_behav

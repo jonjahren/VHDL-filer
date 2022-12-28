@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/Eight_Bit_Comparator.vhd" \
+"../../../../../Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/One_Bit_Comparator.vhd" \
+"../../../../../Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/two_bits_comparator.vhd" \
+"../../../../../Two_bit_comparator_source_codes/Two_bit_comparator_source_codes/Eight_Bit_Comparator_struct_tb.vhd" \
+
+# Do not sort compile order
+nosort

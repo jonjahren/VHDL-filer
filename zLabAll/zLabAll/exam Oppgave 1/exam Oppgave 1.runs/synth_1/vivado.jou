@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May  5 10:29:20 2020
+# Process ID: 932
+# Current directory: C:/Users/tyloo/Desktop/Digitale systemer/zLabAll/exam Oppgave 1/exam Oppgave 1.runs/synth_1
+# Command line: vivado.exe -log Greater_Than.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Greater_Than.tcl
+# Log file: C:/Users/tyloo/Desktop/Digitale systemer/zLabAll/exam Oppgave 1/exam Oppgave 1.runs/synth_1/Greater_Than.vds
+# Journal file: C:/Users/tyloo/Desktop/Digitale systemer/zLabAll/exam Oppgave 1/exam Oppgave 1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Greater_Than.tcl -notrace

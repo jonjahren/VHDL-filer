@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Aug 31 12:28:32 2021
+# Process ID: 13596
+# Current directory: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Demo_01/Demo_01.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Demo_01/Demo_01.sim/sim_1/behav/xsim/xsim.dir/four_bits_comparator_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Demo_01/Demo_01.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Demo_01/Demo_01.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/jonja/Documents/VHDL/Alle -notrace
+couldn't read file "C:/Users/jonja/Documents/VHDL/Alle": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Tue Aug 31 12:28:32 2021...

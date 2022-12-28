@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Feb  3 09:53:46 2020
+# Process ID: 12752
+# Current directory: C:/Users/Vetle/Desktop/Lab02_Vivado/Lab02_Part2_Full_adder/Lab02_Part2_Full_adder.runs/synth_1
+# Command line: vivado.exe -log Lab02_part2_full_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab02_part2_full_adder.tcl
+# Log file: C:/Users/Vetle/Desktop/Lab02_Vivado/Lab02_Part2_Full_adder/Lab02_Part2_Full_adder.runs/synth_1/Lab02_part2_full_adder.vds
+# Journal file: C:/Users/Vetle/Desktop/Lab02_Vivado/Lab02_Part2_Full_adder/Lab02_Part2_Full_adder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Lab02_part2_full_adder.tcl -notrace

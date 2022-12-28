@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hn/Desktop/DFDP1100_2020_Projects/Lab01_Grade/Lab01_Grade.srcs/sources_1/imports/new/Lab01_part2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Lab01_part2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hn/Desktop/DFDP1100_2020_Projects/Lab01_Grade/Lab01_Grade.srcs/sim_1/imports/new/Lab01_part2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Lab01_part2_tb

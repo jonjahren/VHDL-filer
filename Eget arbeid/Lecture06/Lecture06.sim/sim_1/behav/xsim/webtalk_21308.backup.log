@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Sep 28 10:33:58 2021
+# Process ID: 21308
+# Current directory: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lecture06/Lecture06.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/jonja/Documents/VHDL/Eget arbeid/Lecture06/Lecture06.sim/sim_1/behav/xsim/xsim.dir/Mode_M_Counter_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lecture06/Lecture06.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lecture06/Lecture06.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/jonja/Documents/VHDL/Eget -notrace
+couldn't read file "C:/Users/jonja/Documents/VHDL/Eget": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Tue Sep 28 10:33:58 2021...

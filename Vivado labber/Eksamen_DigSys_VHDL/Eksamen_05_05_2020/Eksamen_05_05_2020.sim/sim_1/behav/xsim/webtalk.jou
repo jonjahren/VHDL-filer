@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May  5 11:40:02 2020
+# Process ID: 10048
+# Current directory: C:/Users/Vetle/OneDrive/Skrivebord/Eksamen_DigSys/Eksamen_05_05_2020/Eksamen_05_05_2020.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Vetle/OneDrive/Skrivebord/Eksamen_DigSys/Eksamen_05_05_2020/Eksamen_05_05_2020.sim/sim_1/behav/xsim/xsim.dir/Oppgave_3_Edge_detector_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Vetle/OneDrive/Skrivebord/Eksamen_DigSys/Eksamen_05_05_2020/Eksamen_05_05_2020.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Vetle/OneDrive/Skrivebord/Eksamen_DigSys/Eksamen_05_05_2020/Eksamen_05_05_2020.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Vetle/OneDrive/Skrivebord/Eksamen_DigSys/Eksamen_05_05_2020/Eksamen_05_05_2020.sim/sim_1/behav/xsim/xsim.dir/Oppgave_3_Edge_detector_tb_behav/webtalk/xsim_webtalk.tcl -notrace

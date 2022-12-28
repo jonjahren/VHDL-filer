@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Aug 12 20:44:22 2021
+# Process ID: 14600
+# Current directory: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7244 C:\Users\jonja\Documents\VHDL\Alle oppgaver fra HIEU\DFDP1100_2020_Projects\DFDP1100_2020_Projects\Lab01_Grade\Lab01_Grade.xpr
+# Log file: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade/vivado.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade/Lab01_Grade.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/jonja/Documents/VHDL/Alle oppgaver fra HIEU/DFDP1100_2020_Projects/DFDP1100_2020_Projects/Lab01_Grade'
+INFO: [Project 1-313] Project file moved from 'C:/Users/hn/Desktop/DFDP1100_2020_Projects/Lab01_Grade' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+WARNING: [Project 1-229] Project 'Lab01_Grade.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1250.832 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 12 20:45:58 2021...

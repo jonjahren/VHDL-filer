@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Aug 31 12:56:50 2021
+# Process ID: 11320
+# Current directory: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10800 C:\Users\jonja\Documents\VHDL\Eget arbeid\Lab 01\Lab_01_BertilUS\Lab_01_BertilUS.xpr
+# Log file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS/vivado.log
+# Journal file: C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab 01/Lab_01_BertilUS/Lab_01_BertilUS.xpr}
+update_compile_order -fileset sources_1
+save_project_as project_1 {C:/Users/jonja/Documents/VHDL/Eget arbeid/Lab01Arkitektur/project_1} -force
+launch_simulation
+source Lab01part2_tb.tcl
+close_sim

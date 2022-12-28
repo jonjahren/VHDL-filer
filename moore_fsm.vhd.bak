@@ -1,0 +1,87 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity moore_finite_state_machine is
+port (
+ clock: in std_logic; 
+ reset: in std_logic; 
+ s_in: in std_logic;
+ d_out: out std_logic 
+);
+end moore_finite_state_machine;
+
+architecture Behavioral of moore_finite_state_machine is
+
+type moore_fsm is (Zero, One, OneZero, OneZeroZero, OneZeroZeroOne);
+
+signal current_state, next_state: moore_fsm;
+
+begin
+
+
+process(clock,reset)
+begin
+ if(reset='1') then
+  current_state <= Zero;
+ elsif(rising_edge(clock)) then
+  current_state <= next_state;
+ end if;
+end process;
+
+process(current_state,s_in)
+begin
+ case(current_state) is
+ when Zero =>
+  if(s_in='1') then
+   -- "1"
+   next_state <= One;
+  else
+   next_state <= Zero;
+  end if;
+ when One =>
+  if(s_in='0') then
+   -- "10"
+   next_state <= OneZero;
+  else
+   next_state <= One;
+  end if;  
+ when OneZero => 
+  if(s_in='0') then
+   -- "100"
+   next_state <= OneZeroZero;
+  else
+   next_state <= One;
+  end if;  
+ when OneZeroZero =>
+  if(s_in='1') then
+   -- "1001"
+   next_state <= OneZeroZeroOne;
+  else
+   next_state <= Zero;
+  end if; 
+ when OneZeroZeroOne =>
+  if(s_in='1') then
+   next_state <= One;
+  else
+   next_state <= OneZero;
+  end if;
+ end case;
+end process;
+
+
+process(current_state)
+begin 
+ case current_state is
+ when Zero =>
+  d_out <= '0';
+ when One =>
+  d_out <= '0'; 
+ when OneZero => 
+  d_out <= '0'; 
+ when OneZeroZero =>
+  d_out <= '0'; 
+ when OneZeroZeroOne =>
+  d_out <= '1';
+ end case;
+end process;
+end Behavioral;

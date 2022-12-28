@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Sep 17 16:21:43 2020
+# Process ID: 30088
+# Current directory: C:/Users/Vetle/OneDrive/Skrivebord/Lab01_Vivado/Lab_01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30712 C:\Users\Vetle\OneDrive\Skrivebord\Lab01_Vivado\Lab_01\Lab_01.xpr
+# Log file: C:/Users/Vetle/OneDrive/Skrivebord/Lab01_Vivado/Lab_01/vivado.log
+# Journal file: C:/Users/Vetle/OneDrive/Skrivebord/Lab01_Vivado/Lab_01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Vetle/OneDrive/Skrivebord/Lab01_Vivado/Lab_01/Lab_01.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Vetle/Desktop/Lab01_Vivado/Lab_01' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:34 . Memory (MB): peak = 836.441 ; gain = 215.875
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 17 16:50:18 2020...

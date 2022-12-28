@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1580716872">
+  <File Type="PA-TCL" Name="Lab_02_Part1_Design.tcl"/>
+  <File Type="REPORTS-TCL" Name="Lab_02_Part1_Design_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Lab_02_Part1_Design.msk"/>
+  <File Type="RDI-RDI" Name="Lab_02_Part1_Design.vdi"/>
+  <File Type="BG-BIT" Name="Lab_02_Part1_Design.bit"/>
+  <File Type="BG-DRC" Name="Lab_02_Part1_Design.drc"/>
+  <File Type="BG-BGN" Name="Lab_02_Part1_Design.bgn"/>
+  <File Type="BG-BIN" Name="Lab_02_Part1_Design.bin"/>
+  <File Type="BITSTR-RBT" Name="Lab_02_Part1_Design.rbt"/>
+  <File Type="BITSTR-NKY" Name="Lab_02_Part1_Design.nky"/>
+  <File Type="BITSTR-BMM" Name="Lab_02_Part1_Design_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Lab_02_Part1_Design.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Lab_02_Part1_Design.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Lab_02_Part1_Design.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="Lab_02_Part1_Design.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Lab_02_Part1_Design_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="Lab_02_Part1_Design_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Lab_02_Part1_Design_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Lab_02_Part1_Design_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="Lab_02_Part1_Design_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="Lab_02_Part1_Design_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Lab_02_Part1_Design_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Lab_02_Part1_Design_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Lab_02_Part1_Design_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Lab_02_Part1_Design_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Lab_02_Part1_Design_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Lab_02_Part1_Design_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="Lab_02_Part1_Design.pdi"/>
+  <File Type="RCFI_FILE" Name="Lab_02_Part1_Design.rcfi"/>
+  <File Type="CFI_FILE" Name="Lab_02_Part1_Design.cfi"/>
+  <File Type="RNPI_FILE" Name="Lab_02_Part1_Design.rnpi"/>
+  <File Type="NPI_FILE" Name="Lab_02_Part1_Design.npi"/>
+  <File Type="RBD_FILE" Name="Lab_02_Part1_Design.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Lab_02_Part1_Design.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab_02_Part1_Design"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Lab_02_Part1_Design.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
